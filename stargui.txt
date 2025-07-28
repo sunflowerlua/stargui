@@ -1,0 +1,15 @@
+local mainframe = Instance.new("ScreenGui")
+local mainframe_frame = Instance.new("Frame")
+local text_frame = Instance.new("TextLabel")
+local text_button_skybox = Instance.new("TextButton")
+local text_button_music = Instance.new("TextButton")
+local drag_script = Instance.new("LocalScript")
+local music_sound = Instance.new("Sound")
+
+mainframe.Name = "stargui"
+mainframe_frame.Name = "1stchildframe"
+mainframe_frame.Size = "{0, 438},{0, 295}"
+mainframe_frame.BorderSizePixel = 2
+mainframe_frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+mainframe_frame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+mainframe_frame.Parent = mainframe
