@@ -1,0 +1,22 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 local mainframe = Instance.new("ScreenGui")\
+local mainframe_frame = Instance.new("Frame")\
+local text_frame = Instance.new("TextLabel")\
+local text_button_skybox = Instance.new("TextButton")\
+local text_button_music = Instance.new("TextButton")\
+local drag_script = Instance.new("LocalScript")\
+local music_sound = Instance.new("Sound")\
+\
+mainframe.Name = "stargui"\
+mainframe_frame.Name = "1stchildframe"\
+mainframe_frame.Size = "\{0, 438\},\{0, 295\}"\
+mainframe_frame.BorderSizePixel = 2\
+mainframe_frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)\
+mainframe_frame.BorderColor3 = Color3.fromRGB(255, 255, 255)\
+mainframe_frame.Parent = mainframe}
